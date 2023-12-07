@@ -1,0 +1,130 @@
+@media (min-width: 992px) {
+	.header {
+		&-img {
+			width: 900px;
+		}
+		&-desc {
+			h2,
+			h1 {
+				font-size: 9rem;
+			}
+		}
+	}
+	.sectionHeader {
+		font-size: 5rem;
+	}
+	.cursor {
+		display: block;
+	}
+	.menu {
+		&-main {
+			height: 400px;
+		}
+		&-list {
+			width: 50%;
+			font-size: 4rem;
+		}
+		&-item {
+			&--img {
+				display: block;
+				position: absolute;
+				top: 20%;
+				right: 20px;
+				width: 200px;
+				height: 400px;
+				overflow: hidden;
+				border-radius: 16px;
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					object-position: center;
+				}
+			}
+		}
+	}
+	.icons {
+		&-list {
+			justify-content: space-between;
+			&--item {
+				width: 260px;
+			}
+		}
+	}
+	.section-work {
+		&--title {
+			padding-bottom: 4em;
+			h3 {
+				width: 60%;
+			}
+		}
+		&-desc {
+			width: 60%;
+			padding-bottom: 4em;
+		}
+	}
+	.crossword {
+		display: flex;
+		gap: 0.2em;
+		height: 105px;
+		overflow: hidden;
+		&-item {
+			text-align: center;
+			h3 {
+				height: 100%;
+				font-size: 10rem;
+			}
+		}
+	}
+	.about {
+		&-bg {
+			width: 700px;
+			opacity: 0.2;
+		}
+	}
+	.aboutList {
+		&-item {
+			&--title {
+				width: 50%;
+				font-size: 4rem;
+			}
+			&--desc {
+				color: $greyLight;
+				width: 40%;
+				transform: scaleY(0);
+				transform-origin: center;
+				transition: transform 0.4s, color 0.4s;
+			}
+			&:hover .aboutList-item--desc {
+				transform: scaleY(1);
+				color: $white;
+			}
+		}
+	}
+	.sectionContact {
+		&-desc {
+			top: 50%;
+			font-size: 7rem;
+		}
+		&-title {
+			left: -30%;
+		}
+	}
+	.workSlider {
+		&-slide {
+			&--img {
+				width: 640px;
+				height: 500px;
+				padding-bottom: 4em;
+			}
+		}
+	}
+	.sticky {
+		font-size: 5rem;
+	}
+	.contact-main {
+		&--info {
+			font-size: 5rem;
+		}
+	}
+}
