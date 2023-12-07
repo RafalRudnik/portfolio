@@ -27,7 +27,7 @@ function SectionContact() {
 	const zoom = useTransform(
 		scrollYProgress,
 		isDesctop ? [0, 1] : [0, 1],
-		isDesctop ? [1, 52] : [1, 36]
+		isDesctop ? [1, 52] : [1, 30]
 	);
 	// const scale = useTransform(scrollYProgress, [0, 1], [1, 49]);
 	const scaleY = useTransform(scrollYProgress, [0.2, 1], [1, 0.3]);

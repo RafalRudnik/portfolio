@@ -538,10 +538,11 @@ main {
 	&-title {
 		position: absolute;
 		bottom: 0;
-		left: -130%;
+		width: 100%;
+		left: -105%;
 		// transform: translateX(-50%);
 		transform-origin: bottom;
-		color: $grey;
+		color: $greyLight;
 		//bigTxt
 		transform: scale(0);
 		//42
